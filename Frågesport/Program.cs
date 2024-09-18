@@ -53,4 +53,21 @@ else {
 Console.WriteLine("Varför skulle det vara det här svaret???");
 
 }
+//---------------------------------------------------------
+
+Console.WriteLine($"Du fick {points} poäng");
+if(points== 0){
+
+    Console.WriteLine("Du fick 0 poäng hur är det möjligt?");
+
+}
+else if(points < 1)
+{
+Console.WriteLine("Oke, du fick åtminstånde något rätt :-)");
+
+
+}
+
+
+
 Console.ReadLine();
